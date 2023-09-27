@@ -14,14 +14,14 @@ To run the application on your local system, you will need to install the latest
 
 Follow the steps below:<br><br>
 
-Git clone the repository.<br><br>
+1. Git clone the repository.<br><br>
    ```
    git clone https://github.com/rutujawaghahchoure/FetchApplication.git
    ```
 
-Open the Android Studio Application, then open the file you cloned in the application.<br><br></li>
+2. Open the Android Studio Application, then open the file you cloned in the application.<br><br></li>
 
-Once all the plugins are completed, you can click the green Run button at the top right.<br><br></li>
+3. Once all the plugins are completed, you can click the green Run button at the top right.<br><br></li>
 
 Note: You will also need to install the Android SDK version for the emulator to start and launch a device (this installation is part of the Android Studio Application installation process).<br><br>
 

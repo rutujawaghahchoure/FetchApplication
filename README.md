@@ -13,17 +13,16 @@ Since this is my first attempt at developing an Android Application, I sought he
 To run the application on your local system, you will need to install the latest JDK version and the Android Studio Application.<br><br>
 
 Follow the steps below:<br><br>
-<ol>
-<li>Git clone the repository.<br><br></li>
+
+Git clone the repository.<br><br>
    ```
    git clone https://github.com/rutujawaghahchoure/FetchApplication.git
    ```
-<br>
-<li>Open the Android Studio Application, then open the file you cloned in the application.<br><br></li>
 
-<li>Once all the plugins are completed, you can click the green Run button at the top right.<br><br></li>
+Open the Android Studio Application, then open the file you cloned in the application.<br><br></li>
 
-</ol>
+Once all the plugins are completed, you can click the green Run button at the top right.<br><br></li>
+
 Note: You will also need to install the Android SDK version for the emulator to start and launch a device (this installation is part of the Android Studio Application installation process).<br><br>
 
 

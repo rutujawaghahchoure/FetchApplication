@@ -14,11 +14,10 @@ To run the application on your local system, you will need to install the latest
 
 Follow the steps below:<br><br>
 <ol>
-<li>Git clone the repository.<br><br> 
+<li>Git clone the repository.<br><br></li>
    ```
    git clone https://github.com/rutujawaghahchoure/FetchApplication.git
    ```
-</li>
 <br>
 <li>Open the Android Studio Application, then open the file you cloned in the application.<br><br></li>
 

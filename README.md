@@ -21,3 +21,9 @@ Follow the steps below:<br><br>
 3. Once all the plugins are completed, you can click the green Run button at the top right.<br><br>
 
 Note: You will also need to install the Android SDK version for the emulator to start and launch a device (this installation is part of the Android Studio Application installation process).<br><br>
+
+
+## Features<br>
+When the application is launched a page will be displayed while the data is fetched from the API<br>
+Once the data is reterived first it will be displayed grouped by element ID.<br>
+There is an option which when selected will dispaly the data sorted by ID and the name of the element.<br><br>

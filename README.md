@@ -24,6 +24,12 @@ Note: You will also need to install the Android SDK version for the emulator to 
 
 
 ## Features<br>
-When the application is launched a page will be displayed while the data is fetched from the API<br>
-Once the data is reterived first it will be displayed grouped by element ID.<br>
-There is an option which when selected will dispaly the data sorted by ID and the name of the element.<br><br>
+<ul>
+<li>When the application is launched, a page will be displayed while the data is fetched from the API.</li>
+<li>Once the data is retrieved, it will be displayed grouped by element ID.</li>
+<li>There is an option that, when selected, will display the data sorted by ID and the name of the element.</li>
+</ul>
+
+
+
+

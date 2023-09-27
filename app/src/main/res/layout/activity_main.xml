@@ -30,15 +30,15 @@
         android:id="@+id/message"
         android:layout_width="401dp"
         android:layout_height="58dp"
-        android:text="Disaplaying Elements Grouped By ID"
+        android:text="Displaying Elements Grouped By ID"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/listResults"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.829"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        android:textStyle="bold"/>
+        app:layout_constraintVertical_bias="0.829" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
                      public void onResponse(List<Item> itemList) {
                          //Toast.makeText(MainActivity.this, "Received  " + itemList.size(), Toast.LENGTH_SHORT).show();
                          List<String> elements = new ArrayList<>();
+                         //store the grouped elements in the ArrayList to pass it to an adapter
                          for(int i =0; i<itemList.size(); i++){
                              Item item = itemList.get(i);
                              int id = item.getListId();
@@ -61,13 +62,6 @@ public class MainActivity extends AppCompatActivity {
                              listResults.setAdapter(arrayAdapter);
                      }
                  });
-//                 Toast.makeText(MainActivity.this, "id:  " + itemList.size(), Toast.LENGTH_SHORT).show();
-//                 for(int i=0; i<itemList.size(); i++){
-//                     Item item = itemList.get(i);
-//                     Toast.makeText(MainActivity.this, "id:  " + item.getListId() + item.getName(), Toast.LENGTH_SHORT).show();
-//
-//                 }
-
 
          btn_sortByIDandName.setOnClickListener(new View.OnClickListener() {
              @Override

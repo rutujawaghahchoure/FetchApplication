@@ -20,6 +20,6 @@ public class LoaderActivity extends AppCompatActivity {
                 finish();
 
             }
-        }, 3500);
+        }, 3700);
     }
 }

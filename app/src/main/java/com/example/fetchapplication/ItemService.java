@@ -41,11 +41,12 @@ public class ItemService {
         itemList = new ArrayList<>();
         String url = HTTPS_FETCH_HIRING_S_3_AMAZONAWS_COM_HIRING_JSON;
 
+        //request a response from the URL provided
         JsonArrayRequest request = new JsonArrayRequest(Request.Method.GET, url, null, new Response.Listener<JSONArray>() {
             @Override
             public void onResponse(JSONArray response) {
                     try {
-                        // Group items by listId
+                        //group elements by listId
                         Map<Integer, List<Item>> groupedItems = new HashMap<>();
 
                         for (int i = 0; i < response.length(); i++){
@@ -54,7 +55,7 @@ public class ItemService {
                             String name = jsonObject.getString("name");
 
 
-                            // Filter out items with blank names
+                            //filter out elements with blank names
                             if (!name.isEmpty() && name!="null") {
                                 Item item = new Item(listId, name);
 //                                Toast.makeText(context, "id: " + item.getName(), Toast.LENGTH_SHORT).show();
@@ -66,16 +67,11 @@ public class ItemService {
                                 groupedItems.get(listId).add(item);
                             }
                         }
-                        // Populate itemList with grouped items
+                        //populate itemList with grouped items
                         for (List<Item> items : groupedItems.values()) {
                             itemList.addAll(items);
                         }
 
-                        //Just for the
-//                        for (int i = 0; i < itemList.size(); i++) {
-//                            Item item = itemList.get(i);
-//                            Toast.makeText(context, "id:  " + item.getListId() + item.getName(), Toast.LENGTH_SHORT).show();
-//                        }
                     } catch (JSONException e) {
                         e.printStackTrace();
                     }
@@ -105,13 +101,13 @@ public class ItemService {
                         int listId = jsonObject.getInt("listId");
                         String name = jsonObject.getString("name");
 
-                        // Filter out items with blank or null names
+                        //filter out elements with blank or null names
                         if (name != "null" && !name.isEmpty()) {
                             itemList.add(new Item(listId, name));
                         }
                     }
 
-                    // Sort the items by listId and then by name
+                    //sort the elements by listId and then by name
                     Collections.sort(itemList, new Comparator<Item>() {
                         @Override
                         public int compare(Item item1, Item item2) {

@@ -14,7 +14,7 @@ To run the application on your local system, you will need to install the latest
 
 Follow the steps below:<br><br>
 
-1. Git clone the repository.<br>
+1. Git clone the repository.<br><br>
    ```
    git clone https://github.com/rutujawaghahchoure/FetchApplication.git
    ```

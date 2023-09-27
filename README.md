@@ -7,4 +7,17 @@ The data is displayed to the user on following requirements:<br>
 This application is submitted as a part of a take home assesment for Fetch. <br>
 
 ## Approach used<br>
-Since this my first attempt to developing an Android Application I took help from the internet and learned a lot in the process. I started with creating the design of the application first and then implementing the functionality. I have used the Volley Library to handle the network requests and used the Singleton Pattern as only one instance of class will be created. By using the Singleton pattern network requests can be limited ensuring only once instance is created and requests are handled in the order they are received. I have made use of the callbacks to handle asynchronous requests. The purpose of using callback is it offers a way to schedule a method call to occur when another method finishes its task. 
+Since this is my first attempt at developing an Android Application, I sought help from the internet and learned a lot in the process. I started by creating the design of the application first and then implementing the functionality. I used the Volley Library to handle network requests and employed the Singleton Pattern, ensuring that only one instance of the class will be created. By using the Singleton pattern, network requests can be limited, ensuring that only one instance is created, and requests are handled in the order they are received. I have made use of callbacks to handle asynchronous requests. The purpose of using callbacks is that they offer a way to schedule a method call to occur when another method finishes its task.<br><br>
+
+##Installation<br>
+To run the application on your local system, you will need to install the latest JDK version and the Android Studio Application.<br><br>
+
+Follow the steps below:<br><br>
+
+1. Git clone the repository.<br><br>
+
+2. Open the Android Studio Application, then open the file you cloned in the application.<br><br>
+
+3. Once all the plugins are completed, you can click the green Run button at the top right.<br><br>
+
+Note: You will also need to install the Android SDK version for the emulator to start and launch a device (this installation is part of the Android Studio Application installation process).<br><br>

@@ -9,7 +9,7 @@ This application is submitted as a part of a take home assesment for Fetch. <br>
 ## Approach used<br>
 Since this is my first attempt at developing an Android Application, I sought help from the internet and learned a lot in the process. I started by creating the design of the application first and then implementing the functionality. I used the Volley Library to handle network requests and employed the Singleton Pattern, ensuring that only one instance of the class will be created. By using the Singleton pattern, network requests can be limited, ensuring that only one instance is created, and requests are handled in the order they are received. I have made use of callbacks to handle asynchronous requests. The purpose of using callbacks is that they offer a way to schedule a method call to occur when another method finishes its task.<br><br>
 
-##Installation<br>
+## Installation<br>
 To run the application on your local system, you will need to install the latest JDK version and the Android Studio Application.<br><br>
 
 Follow the steps below:<br><br>
